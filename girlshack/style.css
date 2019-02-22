@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: #fff500;
+    
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.box-container{
+    margin: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#hero h1{
+    
+    font-size: 100px;
+    position: absolute;
+    top:45%;
+    left: 45%;
+}
+
+#product h1{
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+
+.photo{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    position: relative;
+    
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #fff;
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    
+}
